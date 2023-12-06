@@ -103,6 +103,7 @@ setup(
             'zip = invenio_previewer.extensions.zip',
             'ipynb = invenio_previewer.extensions.ipynb',
             'default = invenio_previewer.extensions.default',
+            'mirador3 = invenio_previewer.extensions.mirador3',
         ],
     },
     extras_require=extras_require,
