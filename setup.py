@@ -52,7 +52,7 @@ install_requires = [
     'invenio-pidstore>=1.2.3',
     'invenio-records-ui>=1.2.0',
     'ipython>=4.1.0',
-    'mistune>=0.8.1',
+    #'mistune>=0.8.1',
     # NOTE: nbclient package provides execute in nbconvert >= 6.X
     'nbconvert>=6.0,<7.0',
     'nbclient>=0.5,<1.0',
@@ -97,7 +97,7 @@ setup(
             'json_prismjs = invenio_previewer.extensions.json_prismjs',
             'simple_image = invenio_previewer.extensions.simple_image',
             'xml_prismjs = invenio_previewer.extensions.xml_prismjs',
-            'mistune = invenio_previewer.extensions.mistune',
+            #'mistune = invenio_previewer.extensions.mistune',
             'txt = invenio_previewer.extensions.txt',
             'pdfjs = invenio_previewer.extensions.pdfjs',
             'zip = invenio_previewer.extensions.zip',
